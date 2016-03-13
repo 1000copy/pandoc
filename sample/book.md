@@ -6,9 +6,11 @@ This is my book!
 # Chapter One
 
 Chapter one is over.
+![tobi](tobi80.png)
+![tobi](tobi120.png)
 
 # Chapter Two
 
 Chapter two has just begun.
 
-![sunset](cover.jpg)
+![tobi](tobi16x16.png)
