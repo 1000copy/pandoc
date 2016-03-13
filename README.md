@@ -1,7 +1,7 @@
 # quick start 
 
 run 
-    $ cd sample && pan.sh && open my-ebook.epub
+    $ cd sample && ./pan.sh && open my-ebook.epub
 
 # Creating an ebook 
 
@@ -30,7 +30,7 @@ To make this into an ebook takes only one command:
 
 Note that if your markdown file contains links to local images, for example
 
-![Juliet](images/sun.jpg)
+    ![Juliet](images/sun.jpg)
 
 pandoc will automatically include the images in the generated epub.
 
@@ -38,20 +38,21 @@ pandoc will automatically include the images in the generated epub.
 ## Changing the format
 You can use the --epub-stylesheet option to specify a CSS file for the book. The default CSS is
 
-/* This defines styles and classes used in the book */
-body { margin: 5%; text-align: justify; font-size: medium; }
-code { font-family: monospace; }
-h1 { text-align: left; }
-h2 { text-align: left; }
-h3 { text-align: left; }
-h4 { text-align: left; }
-h5 { text-align: left; }
-h6 { text-align: left; }
-h1.title { }
-h2.author { }
-h3.date { }
-ol.toc { padding: 0; margin-left: 1em; }
-ol.toc li { list-style-type: none; margin: 0; padding: 0; }
+    /* This defines styles and classes used in the book */
+    body { margin: 5%; text-align: justify; font-size: medium; }
+    code { font-family: monospace; }
+    h1 { text-align: left; }
+    h2 { text-align: left; }
+    h3 { text-align: left; }
+    h4 { text-align: left; }
+    h5 { text-align: left; }
+    h6 { text-align: left; }
+    h1.title { }
+    h2.author { }
+    h3.date { }
+    ol.toc { padding: 0; margin-left: 1em; }
+    ol.toc li { list-style-type: none; margin: 0; padding: 0; }
+    
 You can even embed fonts in the EPUB if you want; see the User’s Guide under --epub-embed-font for instructions.
 
 ## Installing Pandoc 
