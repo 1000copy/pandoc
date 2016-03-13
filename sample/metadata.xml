@@ -1,6 +1,6 @@
-<dc:title>My Ebook Title</dc:title> 
-<dc:language>en-US</dc:language> 
-<dc:creator opf:file-as="Doe, John" opf:role="aut">John Doe</dc:creator> 
-<dc:publisher>John Doe Publishing</dc:publisher>
-<dc:date opf:event="publication">2013-11-07</dc:date>
-<dc:rights>Copyright ©2013 by John Doe</dc:rights>
+<dc:title>Pandoc : 创建电子书</dc:title> 
+<dc:language>cn-zh</dc:language> 
+<dc:creator opf:file-as="刘传君" opf:role="aut">刘传君</dc:creator> 
+<dc:publisher>刘传君个人出版</dc:publisher>
+<dc:date opf:event="publication">2016年03月13日</dc:date>
+<dc:rights>Copyright ©2016 by 刘传君</dc:rights>
