@@ -1,4 +1,4 @@
-# quick start 
+# Quick start 
 
 run 
     $ cd sample && ./pan.sh && open my-ebook.epub
@@ -52,7 +52,7 @@ You can use the --epub-stylesheet option to specify a CSS file for the book. The
     h3.date { }
     ol.toc { padding: 0; margin-left: 1em; }
     ol.toc li { list-style-type: none; margin: 0; padding: 0; }
-    
+
 You can even embed fonts in the EPUB if you want; see the User’s Guide under --epub-embed-font for instructions.
 
 ## Installing Pandoc 
